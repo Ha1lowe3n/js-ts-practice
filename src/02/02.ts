@@ -1,4 +1,4 @@
-type CityType = {
+type SudentCityType = {
     title: string;
     country: string;
 };
@@ -8,9 +8,9 @@ type TechType = {
 };
 type AdressType = {
     streetTitle: string;
-    city: CityType;
+    city: SudentCityType;
 };
-type StudentType = {
+export type StudentType = {
     name: string;
     age: number;
     isActive: boolean;
