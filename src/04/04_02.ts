@@ -10,3 +10,5 @@ export const getBuildingWithStaffCountGreatThen = (
 ) => {
     return buildings.filter((b) => b.staffCount > count);
 };
+
+const test = () => {};
